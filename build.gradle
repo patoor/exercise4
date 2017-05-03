@@ -10,6 +10,7 @@ repositories {
 ext {
     springVersion = '4.2.5.RELEASE'
     activemqVersion = '5.13.2'
+    activemqCoreVersion = '5.7.0' 
 	log4jVersion = '2.5'
     junitVersion = '4.12'
 	
@@ -25,6 +26,7 @@ ext {
                 "org.apache.activemq:activemq-broker:${activemqVersion}",
                 "org.apache.activemq:activemq-kahadb-store:${activemqVersion}",
                 "org.apache.activemq:activemq-spring:${activemqVersion}",
+                
         ],
 		
         log4j: [
@@ -39,7 +41,7 @@ dependencies {
     compile "javax:javaee-api:7.0"
     compile libraries.spring
     compile libraries.log4j
-    testCompile libraries.activemqCore
+    compile libraries.activemqCore
     testCompile "junit:junit:${junitVersion}"
 	testCompile "org.mockito:mockito-core:1.10.19"
     testCompile "org.springframework:spring-test:${springVersion}"
