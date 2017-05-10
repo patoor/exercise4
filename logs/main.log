@@ -1,0 +1,4 @@
+1147 [main] INFO  wdsr.exercise4.sender.JmsSender [] - Start sending non persistent messages
+56110 [main] INFO  wdsr.exercise4.sender.JmsSender [] - 10000 non persistent messages sent in 54841 milliseconds
+56110 [main] INFO  wdsr.exercise4.sender.JmsSender [] - Start sending persistent messages
+101022 [main] INFO  wdsr.exercise4.sender.JmsSender [] - 10000 persistent messages sent in 44911 milliseconds
